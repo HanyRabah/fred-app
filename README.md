@@ -109,8 +109,10 @@ npm run dev // yarn dev
 
 # Future Enhancement
 
-- Prefetch data for better loading the data to make faster page viewing 
+- Prefetch data for better loading while browsing the site 
 - Data service algorithm enhancment for faster data processing
 - Using Css @import is not the best approach, because it adds to the time that it takes to load css before page can load.
+- Using Typescript 
+- Writing unit tests and e2e tests
 
 Thanks.
