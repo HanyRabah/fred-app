@@ -114,5 +114,6 @@ npm run dev // yarn dev
 - Using Css @import is not the best approach, because it adds to the time that it takes to load css before page can load.
 - Using Typescript 
 - Writing unit tests and e2e tests
+- Maybe a loader for the chart first time will be better approach while hitting the api
 
 Thanks.
