@@ -6,6 +6,7 @@
 * [Used Stack](#used-stack)
 * [Task Requirements](#task-requirements)
 * [Setup](#setup)
+* [Future Enhancement](#future-enhancement)
 
 
 # General Info 
@@ -105,5 +106,11 @@ BASE_URL=http://localhost:3000 // keep in mind the port might change
 npm run dev // yarn dev
 ```
 
+
+# Future Enhancement
+
+- Prefetch data for better loading the data to make faster page viewing 
+- Data service algorithm enhancment for faster data processing
+- Using Css @import is not the best approach, because it adds to the time that it takes to load css before page can load.
 
 Thanks.
