@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding-top: 80px;
+  background: #185a9d;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.page-wrapper  {
+  background: white;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+  width: 1000px;
+  max-width: 1000px;
+  margin: 0 auto 24px;
+  border-radius: 8px;
+  display: flex;
+  overflow: hidden;
+  padding: 30px;
+  .chart-container {
+    width: 800px;
+    padding-left: 30px;
+    background: white;
+    border-radius: 8px;
+    margin: 0 auto;
+    &-details {
+      p {
+        color: #666;
+        margin: 0 0 5px;
+        font-size: 14px;
+        strong {
+          color: black;
+          font-weight: bold;
+        }
+      }
+    }
+    
+  }
+  .side-menu {
+    border-right: 1px solid #eee;
+    &-title {
+      margin: 0 0 12px;  
+    }
+    &-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      width: 160px;
+      &-item {
+        &__link {
+          font-size: 14px;
+          padding: 8px;
+          color: black;
+          border-bottom: 1px solid #eee;
+          cursor: pointer;
+          transition: all 0.3s ease-out;
+          text-decoration: none;
+          &:hover, &.active {
+            background-color: #185a9d;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  
+}
+
+
+.home-page {
+  width: 100%;
+  &-title {
+    text-align: center;
+  }
+  &-links {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    height: 300px;
+    &__link {
+      display: block;
+      text-decoration: none;
+      border-radius: 6px;
+      box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+      padding: 14px;
+      transition: transform 0.3s ease-out;
+      &:hover {
+        transform: scale(1.1)
+      }
+      &-image {
+        display: block;
+        width: 280px;
+      }
+      &-label {
+        display: block;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        margin-top: 10px
+      }
+    }
+}
+}
